@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slider_quote_blocks",
+  "info": {
+    "name": "Quote Block",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "Author": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    }
+  }
+}

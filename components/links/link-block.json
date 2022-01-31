@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_links_link_blocks",
+  "info": {
+    "name": "link block",
+    "icon": "unlink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_title": {
+      "type": "string"
+    },
+    "link_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "Link_destination": {
+      "model": "pages"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "flex": {
+      "type": "dynamiczone",
+      "components": [
+        "general.image-and-text",
+        "links.link-grid",
+        "image.image-slider",
+        "slider.quote-slider",
+        "general.hero-large"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "unique": false,
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "unique": true,
+      "default": "Home"
+    }
+  }
+}

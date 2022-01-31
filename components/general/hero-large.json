@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_general_hero_larges",
+  "info": {
+    "name": "Hero Large",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "page": {
+      "model": "pages"
+    },
+    "linkText": {
+      "type": "string"
+    }
+  }
+}

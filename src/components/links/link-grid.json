@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_links_link_grids",
+  "info": {
+    "name": "link grid",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link-block"
+    },
+    "pattern": {
+      "type": "boolean"
+    }
+  }
+}
