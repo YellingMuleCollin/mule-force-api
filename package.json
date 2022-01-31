@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "mule-force",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,22 +9,36 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.5",
-    "@strapi/plugin-users-permissions": "4.0.5",
-    "@strapi/plugin-i18n": "4.0.5",
-    "sqlite3": "5.0.2"
+    "graphql": "^16.0.1",
+    "knex": "0.21.18",
+    "slugify": "^1.6.2",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-import-export-content": "^0.4.2",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
+    "strapi-utils": "3.6.8",
+    "yarn": "^1.22.17"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Collin McMahon"
   },
   "strapi": {
-    "uuid": "12b8f939-9ef2-4792-ad46-7ce5445a2188"
+    "uuid": "471deecb-8a5c-45a5-ad95-ff086ee01818"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
   },
   "license": "MIT"
 }

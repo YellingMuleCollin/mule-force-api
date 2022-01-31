@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_links_header_navs",
+  "info": {
+    "name": "headerNav",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkName": {
+      "type": "string"
+    },
+    "link": {
+      "model": "pages"
+    },
+    "hasChildren": {
+      "type": "boolean",
+      "default": false
+    },
+    "button": {
+      "type": "boolean",
+      "default": false
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.children"
+    }
+  }
+}

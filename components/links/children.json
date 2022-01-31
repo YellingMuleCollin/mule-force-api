@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_links_children",
+  "info": {
+    "name": "children",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "pages"
+    },
+    "linkName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_links_footer_navs",
+  "info": {
+    "name": "footerNav",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "linkText": {
+      "type": "string"
+    },
+    "link": {
+      "model": "pages"
+    }
+  }
+}
